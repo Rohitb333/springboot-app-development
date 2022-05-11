@@ -1,6 +1,4 @@
 package com.example.springappdevelopment.Controller;
-
-import com.example.springappdevelopment.Entity.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -33,3 +31,4 @@ public class SpringBootController {
         return "Hello " + user.getFirstName() + " " + user.getLastName();
     }
 }
+
